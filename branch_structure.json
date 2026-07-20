@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/bundle-size-check",
+    "feat/cross-repo-sync-check",
+    "feat/oracle-middleware",
+    "feat/score-provenance",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "feat/bundle-size-check": "main",
+    "feat/cross-repo-sync-check": "main",
+    "feat/oracle-middleware": "main",
+    "feat/score-provenance": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "feat/bundle-size-check",
+    "feat/cross-repo-sync-check",
+    "feat/oracle-middleware",
+    "feat/score-provenance",
+    "origin"
+  ]
+}
